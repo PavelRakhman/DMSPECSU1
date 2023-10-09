@@ -1,0 +1,31 @@
+.Square
+{
+    background-color: #4A545D;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0px 0px 8px #888;
+    width:5rem;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.x
+{
+    color: #FF2768;
+}
+
+.o
+{
+    color:#D2FBA4;
+}
+
+.Square:hover
+{
+    box-shadow: 0px 0px 0px 15px #888;
+}
+
